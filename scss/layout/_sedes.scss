@@ -1,0 +1,43 @@
+.col-sedes {
+    padding: 20px;
+    gap: 30px;
+    text-align: center;
+
+    &:hover {
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+
+    .imagen {
+        width: 40%;
+        height: auto;
+        object-fit: cover;
+        margin: 30px;
+
+    }
+
+    .nombre-sede {
+        font-size: 16px;
+        font-family: font-secundaria;
+        color: white;
+    }
+
+
+    .direccion {
+        font-size: 18px;
+        color: bg-naranja;
+        color: white;
+    }
+
+
+    .btn-primary {
+        color: white;
+        background-color: bg-naranja;
+        border: bg-naranja;
+
+        &:hover {
+            background-color: aqua;
+            transition: 1s;
+        }
+    }
+}

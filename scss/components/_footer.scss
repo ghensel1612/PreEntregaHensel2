@@ -1,0 +1,70 @@
+/*FOOTER*/
+
+
+.pie-pagina {
+    width: 100%;
+    background-color: #1bc318;
+    margin: 70px 0px 0px 0px;
+
+    .grupo-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+
+        .titulo-footer {
+            color: #070707;
+            font-family: $font-principal;
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        .box {
+
+            .listado-acerca-de {
+                list-style: none;
+
+                .nav-link-segunda-barra {
+                    color: black;
+                    padding: 30px;
+                    font-size: 18px;
+                    font-family: font-principal;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: deeppink;
+                    }
+
+                }
+
+
+            }
+
+            .red-social a {
+                display: inline-block;
+                text-decoration: none;
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                color: black;
+                margin-right: 10px;
+                text-align: center;
+
+                &:hover {
+                    color: deeppink;
+                    transition: 1s;
+                }
+            }
+
+        }
+    }
+
+    .grupo-2 {
+        color: black;
+        background-color: #e5dcdc;
+        text-align: center;
+    }
+}

@@ -1,0 +1,26 @@
+.reserva {
+    color: white;
+    margin: 30px 15px;
+
+}
+
+.texto-relleno {
+    color: white;
+    margin: 30px 15px;
+}
+
+
+.nombre-plan {
+    font-size: 25px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: orangered;
+    border: bg-naranja;
+
+    &:hover {
+        background-color: aqua;
+        transition: 1s;
+    }
+}
